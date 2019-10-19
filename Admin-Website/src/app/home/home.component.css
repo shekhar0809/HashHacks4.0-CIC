@@ -1,0 +1,17 @@
+/* a {
+    text-decoration: none;
+} */
+
+#container {
+    width: 100%;
+    position: relative;
+}
+
+#example-card {
+    height: 300px;
+    width: 250px;;
+    /* margin: auto; */
+    margin: 50px;
+    margin-top: 50px;
+}
+

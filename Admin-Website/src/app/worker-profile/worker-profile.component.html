@@ -1,0 +1,25 @@
+<mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title>{{ worker.userId }}</mat-card-title>
+    </mat-card-header>
+
+    <div class="container">
+        <div class="image"> Profile picture </div>
+
+        <div class="bio">
+            Name = {{ worker.name }}
+            <hr>
+            Locality = {{ worker.locality }}
+            <hr>
+            Weight collected = {{ worker.weight }}
+            <hr>
+
+
+        </div>
+    </div>
+
+    <mat-card-actions>
+        <button mat-button>Edit</button>
+        <button mat-button>Delete</button>
+    </mat-card-actions>
+</mat-card>

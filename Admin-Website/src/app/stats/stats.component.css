@@ -1,0 +1,9 @@
+
+mat-card {
+    margin: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+    border: 2px solid indigo;
+    border-radius: 10px;
+}

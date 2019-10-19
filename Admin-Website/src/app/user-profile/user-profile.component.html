@@ -1,0 +1,18 @@
+<mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title>{{ user.userId }}</mat-card-title>
+    </mat-card-header>
+    <div class="image"> Profile picture </div>
+
+    <div class="bio">
+        Name = {{ user.name }}
+        <hr>
+        Credit Sold = {{ user.creditScore }}
+        <hr>
+
+    </div>
+    <mat-card-actions>
+        <button mat-button>Edit</button>
+        <button mat-button>Delete</button>
+    </mat-card-actions>
+</mat-card>
