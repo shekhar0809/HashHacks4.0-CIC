@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.userapp.ui.home.HomeFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_points"
+        android:name="com.example.userapp.ui.gallery.GalleryFragment"
+        android:label="Buy Coupons"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_transactions"
+        android:name="com.example.userapp.ui.slideshow.SlideshowFragment"
+        android:label="My Transactions"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.userapp.ui.tools.ToolsFragment"
+        android:label="My profile"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_helpdesk"
+        android:name="com.example.userapp.ui.share.ShareFragment"
+        android:label="HelpDesk"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_complaint"
+        android:name="com.example.userapp.ui.send.SendFragment"
+        android:label="Submit a Complaint"
+        tools:layout="@layout/fragment_send" />
+</navigation>
