@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/fill_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="User Id"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/recyclable_trash"
+        android:layout_width="91dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Recyclable"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="278dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/non_recyclable_trash"
+        android:layout_width="103dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Non Recyclable Trash"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="200dp"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"/>
+
+    <ImageButton
+        android:id="@+id/worker_profile_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/avatar"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
