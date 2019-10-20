@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         submit_button.setOnClickListener(){
+            val intent = Intent(this, Submit_Message::class.java)
+            startActivity(intent)
             Toast.makeText(this, "Your response has been recorded!", Toast.LENGTH_LONG).show()
         }
     }

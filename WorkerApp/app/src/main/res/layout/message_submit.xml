@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Record has been submitted and an OTP has been generated at the user's end.."
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/return_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return To Home"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>
