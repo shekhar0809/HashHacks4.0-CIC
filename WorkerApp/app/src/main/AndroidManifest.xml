@@ -18,6 +18,7 @@
         </activity>
 
         <activity android:name=".WorkerProfile"/>
+        <activity android:name=".Submit_Message"/>
     </application>
 
 </manifest>
