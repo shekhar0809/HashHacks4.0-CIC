@@ -11,6 +11,11 @@ class Submit_Message : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.message_submit)
 
+        val bundle: Bundle? = intent.extras
+        val msg = bundle!!.getString("otp_generated")
+
+        textView5.text = msg + " : Give this OTP to the user."
+
         return_home.setOnClickListener(){
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

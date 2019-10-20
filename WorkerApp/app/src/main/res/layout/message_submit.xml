@@ -8,9 +8,9 @@
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your Record has been submitted and an OTP has been generated at the user's end.."
         android:layout_marginTop="100dp"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:inputType="number"/>
 
     <Button
         android:id="@+id/return_home"
