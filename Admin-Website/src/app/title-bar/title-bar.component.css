@@ -1,13 +1,21 @@
-.right-button {
-    margin-left: auto;
-    right: 0;
-}
 
 mat-toolbar {
-    height: 100px;
-
+    height: 70px;
+    box-shadow: 20px;;
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.right-button {
+    margin-left: auto;
+    right: 0;
+    color: #4652b0;
 }
