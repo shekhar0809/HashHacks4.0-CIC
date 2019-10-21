@@ -1,51 +1,33 @@
-<div id="container" fxLayout="row">
+<div class="main" >
 
-    <a routerLink="workers" style="text-decoration: none;">
-        <mat-card [style.backgroundColor]='"#f2ac9b"' id="example-card">
-            <mat-card-header>
-                <mat-card-title>Worker Data</mat-card-title>
-                <mat-card-subtitle>qwerty</mat-card-subtitle>
-            </mat-card-header>
+    <div class="heading">
+        Scrappy
+    </div>
 
-            <mat-card-content>
-                <p>
-                    This link shows the data of registered workers
-                </p>
-            </mat-card-content>
+    <div class="subheading">
+        Providing credit for Garbage
+    </div>
 
-        </mat-card>
-    </a>
+</div>
 
-    <a routerLink="users" style="text-decoration: none;">
-        <mat-card [style.backgroundColor]='"#f2ac9b"' id="example-card">
-            <mat-card-header>
-                <mat-card-title>User Data</mat-card-title>
-                <mat-card-subtitle>qwerty</mat-card-subtitle>
-            </mat-card-header>
+<div class="container">
+    <div class="cardContainer">
+        <a routerLink="workers" style="text-decoration: none;">
+            <div class="card">
+                Worker Data
+            </div>
+        </a>
 
-            <mat-card-content>
-                <p>
-                    This link shows the data of registered users
-                </p>
-            </mat-card-content>
-        </mat-card>
+        <a routerLink="users" style="text-decoration: none;">
+            <div class="card">
+                User Data
+            </div>
+        </a>
 
-    </a>
-
-    <a routerLink="stats" style="text-decoration: none;">
-        <mat-card [style.backgroundColor]='"#f2ac9b"' id="example-card">
-            <mat-card-header>
-                <mat-card-title>Statistics</mat-card-title>
-                <mat-card-subtitle>qwerty</mat-card-subtitle>
-            </mat-card-header>
-
-            <mat-card-content>
-                <p>
-                    This link shows the stats
-                </p>
-            </mat-card-content>
-        </mat-card>
-
-    </a>
-
+        <a routerLink="stats" style="text-decoration: none;">
+            <div class="card">
+                Statistics
+            </div>
+        </a>
+    </div>
 </div>

@@ -1,41 +1,29 @@
 <mat-toolbar color="primary">
 
-    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
-        <mat-icon>more_vert</mat-icon>
-    </button>
-    <mat-menu #menu="matMenu">
+    <a routerLink="">
+        <button mat-button>
+            <span>Home</span>
+        </button>
+    </a>
 
-        <a routerLink="">
-            <button mat-menu-item>
-                <span>Home</span>
-            </button>
-        </a>
-        
-        <a routerLink="workers">
-            <button mat-menu-item>
-                <span>Workers</span>
-            </button>
-        </a>
+    <a routerLink="workers">
+        <button mat-button>
+            <span>Workers</span>
+        </button>
+    </a>
 
-        <a routerLink="users">
-            <button mat-menu-item>
-                <span>Users</span>
-            </button>
-        </a>
+    <a routerLink="users">
+        <button mat-button>
+            <span>Users</span>
+        </button>
+    </a>
 
-        <a routerLink="stats">
-            <button mat-menu-item>
-                <span>Stats</span>
-            </button>
-        </a>
-
-    </mat-menu>
-
-    <div> <br><br> </div>
-
-    <div>Scrappy</div>
+    <a routerLink="stats">
+        <button mat-button>
+            <span>Stats</span>
+        </button>
+    </a>
 
     <button class="right-button" mat-raised-button>Logout</button>
-
 
 </mat-toolbar>
